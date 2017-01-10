@@ -5,16 +5,10 @@
   -webkit-align-items: center;
   display: -webkit-flex;
   height: 101px;
-  background-color: aliceblue;
+  background-color: rgba(0,0,0,.1);
   border: 1px solid black;
   margin: 25px;
   font-family: sans-serif;
-}
-.trollGifBg {
-  background-image: url("troll.gif");
-  background-repeat: repeat-x;
-  background-size: contain;
-  background-color: none;
 }
 [data-block] {
   display: flex;

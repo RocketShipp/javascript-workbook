@@ -1,0 +1,21 @@
+body {
+  margin: 0 auto;
+}
+#mainText {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+li {
+  list-style: none;
+}
+#mainText li a, #mainText li a:visited {
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+}
+h1 {
+  font-size: 50px;
+}

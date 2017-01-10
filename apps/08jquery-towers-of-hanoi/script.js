@@ -14,8 +14,6 @@ $(document).ready(function() {
             // Obligatory Rick Roll on a win
             $('#rick').css('display', '-webkit-flex');
             $('#ytplayer').attr('src', $('#ytplayer').attr("src").replace("autoplay=0", "autoplay=1")).addClass("animated flipInY");
-            // Troll Bars
-            $($dataStack).addClass('trollGifBg');
         }
     }
 
