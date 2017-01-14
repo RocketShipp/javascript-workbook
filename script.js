@@ -2,10 +2,13 @@
 
 $(document).ready(function() {
 
-  $('li a').hover(function(){
-    $(this).css('text-shadow', '1px 1px 5px black');
+  $('.navLinks a').hover(function(){
+    $(this).addClass('linkHoverStyles');
   }, function() {
-    $(this).css('text-shadow', 'none');
+    $(this).removeClass('linkHoverStyles');
+  }).click(function(){
+    $('p#framePlaceHolder').css('display', 'none');
   });
+
 
 });
