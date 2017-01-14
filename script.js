@@ -8,5 +8,6 @@ $(document).ready(function() {
     $(this).removeClass('linkHoverStyles');
   }).click(function(){
     $('p#framePlaceHolder').css('display', 'none');
+    $('#pageContents').css('background', 'auto');
   });
 });
