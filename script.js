@@ -9,6 +9,4 @@ $(document).ready(function() {
   }).click(function(){
     $('p#framePlaceHolder').css('display', 'none');
   });
-
-
 });
